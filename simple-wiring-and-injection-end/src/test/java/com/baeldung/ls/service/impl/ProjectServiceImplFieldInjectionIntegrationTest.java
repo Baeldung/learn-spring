@@ -1,6 +1,5 @@
 package com.baeldung.ls.service.impl;
 
-
 import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;

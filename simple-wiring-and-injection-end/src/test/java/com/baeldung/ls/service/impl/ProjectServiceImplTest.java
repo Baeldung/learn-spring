@@ -8,7 +8,6 @@ import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-
 public class ProjectServiceImplTest {
 
     private ProjectServiceImpl projectServiceImpl = new ProjectServiceImpl(new ProjectRepositoryImpl());

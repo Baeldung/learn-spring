@@ -1,6 +1,5 @@
 package com.baeldung.ls.service.impl;
 
-
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.time.LocalDate;
