@@ -15,7 +15,7 @@ public class Project {
     private String internalId;
 
     public Project(Long id, String name, LocalDate dateCreated) {
-        if(Objects.isNull(id)) {
+        if (Objects.isNull(id)) {
             id = new Random().nextLong();
         }
         this.id = id;
