@@ -41,8 +41,8 @@ public class Project {
     public Project(Project project) {
         this(project.getName(), project.getDateCreated());
         this.tasks = project.getTasks()
-            .stream()
-            .collect(Collectors.toSet());
+                        .stream()
+                        .collect(Collectors.toSet());
     }
 
     public Long getId() {

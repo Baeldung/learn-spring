@@ -7,6 +7,7 @@ import com.baeldung.ls.persistence.repository.ITaskRepository;
 import com.baeldung.ls.service.ITaskService;
 
 public class TaskServiceImpl implements ITaskService {
+
     private ITaskRepository taskRepository;
 
     public TaskServiceImpl(ITaskRepository taskRepository) {

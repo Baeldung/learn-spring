@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>what-is-spring-mvc-lesson-start</module>
-        <module>what-is-spring-mvc-lesson-end</module>
+        <module>what-is-spring-mvc-start</module>
+        <module>what-is-spring-mvc-end</module>
         <module>expanding-our-first-controller-start</module>
         <module>expanding-our-first-controller-end</module>
         <module>testing-with-boot-start</module>
