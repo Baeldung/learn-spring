@@ -28,7 +28,7 @@ public class LsApp implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        projectService.save(new Project(1L,"Project 1", LocalDate.now()));
+        projectService.save(new Project(1L, "Project 1", LocalDate.now()));
 
         Optional<Project> project = projectService.findById(1L);
 

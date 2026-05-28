@@ -3,10 +3,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <description>Learn Spring - Actuators in Boot - End</description>
-    <name>actuators-in-boot-lesson-end</name>
+    <name>actuators-in-boot-end</name>
 
     <groupId>com.baeldung</groupId>
-    <artifactId>actuators-in-boot-lesson-end</artifactId>
+    <artifactId>actuators-in-boot-end</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
