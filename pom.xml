@@ -18,8 +18,8 @@
         <module>logging-in-a-spring-boot-project-end</module>
         <module>deploying-a-spring-boot-project</module>
         <module>deploying-boot-application-other-options</module>
-        <module>spring-testing-framework-lesson-start</module>
-        <module>spring-testing-framework-lesson-end</module>
+        <module>spring-testing-framework-start</module>
+        <module>spring-testing-framework-end</module>
         <module>working-with-property-source-start</module>
         <module>working-with-property-source-end</module>
         <module>default-properties-start</module>
