@@ -5,7 +5,7 @@
     <description>Learn Spring - Lifecycle of a Bean - Init and Destroy Hooks- End</description>
 
     <groupId>com.baeldung</groupId>
-    <artifactId>lifecycle-of-a-bean-lesson-end</artifactId>
+    <artifactId>lifecycle-of-a-bean-end</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 

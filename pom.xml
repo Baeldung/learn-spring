@@ -12,8 +12,8 @@
     <modules>
         <module>basics-of-java-configuration-and-the-spring-context-start</module>
         <module>basics-of-java-configuration-and-the-spring-context-end</module>
-        <module>defining-beans-component-scanning-and-bean-annotations-start</module>
-        <module>defining-beans-component-scanning-and-bean-annotations-end</module>
+        <module>defining-beans-component-and-component-scanning-start</module>
+        <module>defining-beans-component-and-component-scanning-end</module>
         <module>lifecycle-of-a-bean-start</module>
         <module>lifecycle-of-a-bean-end</module>
         <module>simple-wiring-and-injection-start</module>
