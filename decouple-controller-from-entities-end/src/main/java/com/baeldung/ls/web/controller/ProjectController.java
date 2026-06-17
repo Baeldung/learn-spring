@@ -61,7 +61,8 @@ public class ProjectController {
     }
 
     protected TaskDto convertTaskToDto(Task entity) {
-        TaskDto dto = new TaskDto(entity.getId(), entity.getName(), entity.getDescription(), entity.getDateCreated(), entity.getDueDate(), entity.getStatus());
+        TaskDto dto = new TaskDto(entity.getId(), entity.getName(), entity.getDescription(),
+            entity.getDateCreated(), entity.getDueDate(), entity.getStatus());
         return dto;
     }
 
