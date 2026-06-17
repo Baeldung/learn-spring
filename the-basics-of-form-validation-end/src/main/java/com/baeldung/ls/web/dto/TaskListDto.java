@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskListDto {
+
     private List<TaskDto> tasks;
 
     public TaskListDto() {

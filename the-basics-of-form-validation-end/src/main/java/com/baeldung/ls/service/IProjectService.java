@@ -7,6 +7,7 @@ import com.baeldung.ls.persistence.model.Project;
 import com.baeldung.ls.persistence.model.Task;
 
 public interface IProjectService {
+
     Optional<Project> findById(Long id);
 
     Project save(Project project);
