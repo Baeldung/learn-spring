@@ -36,6 +36,13 @@ public class ProjectController {
 
     //
 
+    @GetMapping(value = "/{id}")
+    public ProjectDto findOne(@PathVariable Long id) {
+        Project entity = projectService.findById(id)
+            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+        return convertToDto(entity);
+    }
+
     @GetMapping(value = "/{category}-{subcategoryId:\\d\\d}/{id}")
     public ProjectDto findOne(@PathVariable Long id, @PathVariable String category, @PathVariable Integer subcategoryId) {
         Project entity = projectService.findById(id)
