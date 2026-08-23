@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Controller;
@@ -23,6 +25,8 @@ import com.baeldung.ls.web.dto.TaskDto;
 @Controller
 @RequestMapping(value = "/projects")
 public class ProjectController {
+
+    private static final Logger LOG = LoggerFactory.getLogger(ProjectController.class);
 
     private IProjectService projectService;
 
@@ -51,7 +55,9 @@ public class ProjectController {
     @PostMapping
     public String addProject(ProjectDto project) {
         Project newProject = projectService.save(convertToEntity(project));
+        LOG.info("Before publishing the event");
         publisher.publishEvent(new ProjectCreatedEvent(newProject.getId()));
+        LOG.info("After publishing the event");
         return "redirect:/projects";
     }
 
